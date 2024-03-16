@@ -1,0 +1,1013 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-mav{
+    height: 110px;
+
+    background-image: linear-gradient( yellowgreen,transparent);
+}
+.nav-contranier{
+    width: 90%;
+    padding-left: 160px;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    
+}
+.nav-style{
+    display: flex;
+    text-align: center;
+justify-content: center;
+width: 100%;
+}
+.nav-child{
+    width: 15%;
+    height: 100px;
+    padding-top: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.logo-shoe{
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-child-2{
+    width: 60%;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+}
+.nav-tems .active{
+color: red;
+}
+.nav-tems{
+    list-style: none;
+    text-decoration: none;
+}
+.from-nav{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+.from-nav:hover{
+    box-shadow: 1px 2px 7px black;
+    background-color:yellow;
+    border: none;
+
+
+}
+.nav-child-3{
+    display: flex;
+height: 90px;
+    padding-left: 5px;
+    width: 30%;
+    /* background-color:#7ad03a; */
+}
+.magnify{
+    padding-top: 25px;
+}
+.icon-search{
+    position: absolute;
+    font-size: 25px;
+    transform: translate(-180% ,34%);
+}
+.icon-bag{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+    padding-top: 13px;
+}
+.icon-bag:hover{
+    background-color: yellow;
+    color: blue;
+    box-shadow: 1px 2px 8px red ;
+    text-shadow: 1px 2px 6px;
+}
+.icoc-zero{
+    margin-top: 15px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    transform: translate(-55%,1%);
+}
+.icoc-zero:hover{
+    background-color: red;
+}
+.icon-bars{
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    visibility: hidden;
+}
+.back-image-1{
+    
+    background-image: url(./slider1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    margin: 0px;
+    
+    /* background-color: rgb(129, 235, 235,0.8); */
+/* background-blend-mode: multiply; */
+}
+.contranier-banner-1{
+    background-image: linear-gradient(to top,yellowgreen,transparent);
+    height: 800px;
+         /* background-image: url(./images/slider1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  */
+    /* color:darkgrey ; */
+}
+.image-banner-1{
+    height: 600px;
+    width: 600px;
+}
+.back-image-2{
+    background-image: url(./slider2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    margin: 0px;
+    /* background-color: rgb(129, 235, 235,0.8);
+background-blend-mode: multiply; */
+}
+.back-image-3{
+    background-image: url(./slider3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    margin: 0px;
+    /* background-color: rgb(129, 235, 235,0.8);
+background-blend-mode: multiply; */
+}
+.style-Destination{
+    padding-top: 150px;
+    padding-left: 150px;
+}
+.style{
+    font-size: 29px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    padding-bottom: 30px;
+}
+.style:hover{
+    color:black;
+    text-shadow: 1px 3px 8px brown;
+}
+.new-shoes{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 75px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.new-shoes:hover{
+    color: chocolate;
+    text-shadow: 2px 3px 8px black;
+}
+.title-pera{
+    font-family: 'Titillium Web', sans-serif;
+    width: 500px;
+    font-size: 28px;
+    padding-top: 20px;
+    color: white;
+}
+.title-pera:hover{
+    color:black;
+}
+.button{
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    width: 250px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 40px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    font-size: 25px;
+}
+.button:hover{
+    background-color: yellow;
+    color: black;
+}
+.list-low{
+    margin-left: 20px !important;
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 50% !important;
+
+
+}
+.list-low:hover{
+    background-color: brown !important;
+}
+.list-baner{
+    position: absolute !important;
+    left: -1px !important;
+    width: 150px;
+    top: 690px;
+}
+/* sectiovS-2 */
+.sectiovS-2{
+    margin: 0px;
+    height: 700px;
+background-image: url(./s2-back.jpg);
+background-size: 100% 100%;
+background-color: rgb(154, 205, 50, 0.4);
+background-blend-mode: multiply; 
+background-repeat: no-repeat;
+text-align: center;
+}
+.S2-contranier{
+    padding-top: 80px;
+    height: 450px;
+    width: 95%;
+padding-left: 5%;
+text-align: center;
+display: flex;
+justify-content: space-evenly;
+}
+.best{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 29px;
+    padding-top: 30px;
+}
+.sport{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 70px;
+    color: white;
+}
+.chiled-S2{
+    border-radius: 30px;
+    background-color: white;
+    width: 24%;
+    box-shadow: 2px 3px 8px ;
+    position: relative;
+}
+.productsS2{
+    background: none;
+    height: 250px;
+    width: 250px;
+    padding-top: 30px;
+}
+.button-add{
+width: 90%;
+    display: none;
+    margin-top: 210px;
+    background-color: blue;
+    margin-left: 5%;
+    
+}
+.overlay-div{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    border-radius: 30px;
+
+}
+.icon-paper{
+    font-size: 25px;
+    padding-top: 10px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    display: none;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.icon-paper-1{
+    margin-left: 0px;
+}
+.chiled-S2:hover{
+    transform: translate(1.02);
+    border: 5px solid blue;
+}
+/* .overlay-div:hover .chiled-S2{
+    background-image: linear-gradient(to top,  #af4cf5, transparent);
+
+} */
+.overlay-icon{
+    display: flex;
+    justify-content: center;
+}
+.chiled-S2:hover .button-add{
+    display: block;
+    opacity: 2;
+/* background-image: linear-gradient(to top,  #af4cf5, transparent); */
+}
+.chiled-S2:hover .icon-paper{
+    display: block;
+    
+}
+.chiled-S2:hover .overlay-div{
+    opacity: 2;
+    display: block;
+    transition: 5s ease;
+    height: 343px;
+    width: 100%;
+    text-align: center;
+    
+    background-image: linear-gradient(to top,darkblue , transparent);
+    
+}
+/* .chiled-S2:hover .productsS2{
+
+ opacity: 0.5;
+background:linear-gradient(rgb(58, 58, 212))} */
+.best-shoe{
+    font-family: 'Playfair Display', serif;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.chiled-S2:hover .best-shoe{
+    display: none;
+}
+.best-shoe:hover{
+    color:red;
+}
+/* sectionS-3 */
+.sectionS-3{
+    height: 800px;
+    margin: 0px;
+background-image: url(./layout-women-s-S-3.avif);
+/* background-color: rgb(129, 235, 235,0.8);
+background-blend-mode: multiply; */
+/* background-blend-mode: color rgb(129, 235, 235,0.1) ; */
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+padding-top: 50px;
+}
+.s3-contranier{
+    width: 80%;
+    height: 660px;
+    margin-left: 10%;
+    border: 3px solid skyblue;
+    background-image: linear-gradient(to top,yellowgreen , transparent);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.s3-contranier:hover{
+    background-image: linear-gradient(to top,skyblue , transparent);
+}
+.child-S3{
+    width: 49%;
+    height: 610px;
+    margin-top: 40px;
+    background-image: url(./deal-shoe-S3.png) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* box-shadow: 2px 3px 8px black; */
+    border-radius: 30px;
+    background-position-x: 10px;
+}
+.child-S3-2{
+    padding-left: 10px;
+    border-radius: 30px;
+    /* box-shadow: 2px 3px 8px black; */
+    background-image: none;
+
+}
+.day{
+    height: 90px;
+    padding-top: 24px;
+    width:90px;
+    background-color: white;
+    color: black;
+    font-size: 27px;
+    text-align: center;
+    list-style: none;
+    border-radius: 50%;
+}
+.day:hover{
+background-color: skyblue;
+text-shadow: 1px 2px 6px ;
+font-size: 50px;
+padding-top: 10px;
+color: white;
+}
+.flex-divS3{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.load{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+}
+.sale{
+    font-size: 58px;
+}
+.ssle-pera{
+    font-size: 29px;
+    width: 90%;
+    color: white;
+    padding-top: 5px;
+}
+.button-5{
+    background-color: blue;
+}
+/* section-S4 */
+.section-S4{
+    height: 250px;
+    width: 100%;
+    /* background-image: url(./images/S-4-banner.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+    background-color: black;
+
+}
+.s-4-contranier{
+    width: 90%;
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.S-4-wiled{
+    padding-top: 100px;
+    display: flex;
+    display: inline-flex;
+
+}
+.S-4-icon{
+    font-size: 50px;
+    color: white;
+}
+.shipping{
+    font-size: 20px;
+    padding-left: 10px;
+    color: white;
+
+}
+.S-4-icon:hover{
+    transform: scale(1.4);
+    color: blue;
+}
+
+
+.megs-sale-1{
+    background-color: yellowgreen;
+}
+/* section-S5 */
+.section-S5{
+    height: 1000px;
+    margin: 0px;
+    background-image: linear-gradient(yellowgreen, transparent);
+    
+}
+.season{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+    color: black;
+}
+.S-5contranier{
+    width: 90%;
+    padding-left: 10%;
+    padding-top: 20px;
+    height: 720px;
+    display: flex;
+    justify-content: space-between;
+}
+.megs-sale-1{
+
+    background-color: yellowgreen;
+    height: 720px;
+    width: 49%;
+    text-align: center;
+}
+.off-55{
+    height: 120px;
+    width: 120px;
+    margin-left: 360px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: white;
+    color: red;
+    border-radius: 50%;
+list-style: none;
+font-size: 30px;
+
+}
+.S-5-1st-image{
+    background-image: url(./season-sale-S-5-1st.png);
+    background-size: 90% 90%;
+    background-position-x: 40px;
+    background-position-y: 10px;
+    height: 350px;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+
+}
+
+.megs-sale-2{
+    width: 49%;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.men-sport-1{
+    background-image: url(./season-sale-img2-S-5.png);
+    background-repeat: no-repeat;
+    background-position-x: 230px;
+    background-position-y: 70px;
+    background-size: 55% 55%;
+    height: 345px;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+.men-sport-2{
+    background-image: url(./season-sale-img3-S5.png);
+    background-position-x: 230px;
+    background-position-y: 70px;
+    background-repeat: no-repeat;
+    background-size: 55% 55%;
+    height: 345px; 
+    background-color: brown;
+}
+.collection-S5{
+    font-size: 90px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+}
+.Shoes-collection{
+    font-family: 'Playfair Display', serif;
+    list-style: none;
+    font-size: 25px;
+    text-align: center;
+}
+.button-6{
+    margin-top: 50px;
+    background-color:rgb(165, 42, 42);
+}
+.Extra{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    list-style: none;
+}
+.collection-S5-2{
+    font-size: 50px;
+    padding-left: 20px;
+}
+.button-7{
+    margin-left: 10px;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(221, 221, 140);
+}
+/* section-s6 */
+.section-s6{
+    height: 650px;
+    margin: 0px;
+    padding-top: 50px;
+} 
+.S-6-contranier{
+    margin-left: 10%;
+    border-radius: 20px;
+    height: 550px;
+    padding-left: 20px;
+    width: 80%;
+    box-shadow: 1px 2px 5px black;
+    display: flex;
+    justify-content: space-between;
+}
+.special-offer{
+    width: 50%;
+}
+.special-offer-2{
+    border-radius: 20px;
+    width: 46%;
+    margin-right: 4%;
+    height: 450px;
+margin-top: 50px;
+    box-shadow: 1px 2px 8px palevioletred;
+    background-image: url(./pngegg\ 2.png);
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+}
+.special-offer-2:hover{
+    transform: scale(1.05) rotate(5deg);
+}
+.vfsgbnh{
+    list-style: none;
+    font-size: 30px;
+    margin: 0px;
+    padding-top: 20px;
+}
+.cord{
+    font-size: 40px;
+    color:black;
+}
+.adidas{
+    font-size: 90px;
+    color:palevioletred;
+    margin: 0px;
+}
+.lorem-sneaker{
+    font-size: 20px;
+    width: 95%;
+    margin: 0px;
+}
+.doller{
+    padding-top: 20px;
+    font-size: 30px;
+    margin: 0px;
+    text-decoration-line: none;
+}
+.doller-99{
+font-size: 20px;
+
+text-decoration: line-through red;
+}
+.button-11{
+    background-color: palevioletred;
+}
+/* sectionS-7 */
+.sectionS-7{
+    height: 1000px;
+    margin: 0px;
+    background-image: linear-gradient(to top,yellowgreen , transparent);
+text-align: center;
+}
+.new-shoes-new{
+    background-color: skyblue;
+    list-style: none;
+    font-size: 30px;
+    color: black;
+    margin: 0px;
+    padding-top: 0px;
+}
+.arrivals{
+    font-size: 50px;
+    color: black;
+    margin: 0px;
+    list-style: none;
+}
+.S-7-contranier{
+width: 100%;
+padding-left: 10%;
+padding-right: 10%;
+
+}
+.S-7-child{
+    height:370px ;
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.S-7-child-2{
+    margin-top: 10px;
+    height:370px ;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.court-shoe{
+    position: relative;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+    width: 24%;
+    background-color: white;
+}
+.court-shoe:hover{
+    border: 2px solid blue;
+    transform: scale(1.02);
+}
+.arrivals-image{
+    height: 230px;
+    width: 280px;
+    padding-top: 30px;
+}
+.arrivals-image-2{
+    height: 230px;
+    padding-top: 0px;
+    border-radius: 50px;
+}
+.arrivals-image-3{
+    width: 310px;
+    height: 230px;
+    
+}
+.card-div{
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: none;
+}
+.button-8{
+    height: 70px;
+    width: 80%;
+    font-size: 20px;
+    background-color: blue;
+}
+.court-shoe:hover .card-div{
+    display: block;
+    opacity: 2;
+}
+.court-shoe:hover .arrivals-image{
+    opacity: 0.7;
+    /* background:linear-gradient(rgb(58,58,212)); */
+}
+/* sectionS-8 */
+.sectionS-8{
+    margin: 0px;
+    height: 700px;
+    text-align: center;
+
+}
+.S-8contranier{
+    width: 90%;
+    height: 450px;
+    padding-top: 30px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.reviews{
+    padding-top: 20px;
+    font-size: 30px;
+    list-style: none;
+}
+.coustmer{
+    color: black;
+    font-size: 50px;
+}
+.childS-8{
+    border-radius: 20px;
+    box-shadow: 1px 2px 8px ;
+    width: 24%;
+}
+.childS-8:hover{
+    transform: scale(1.03);
+    background-image: linear-gradient(to top,yellowgreen , transparent);
+}
+.dose{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.person-1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.johan{
+    list-style: none;
+    text-align: left;
+    font-size: 24px;
+    color: blue;
+}
+.customer-li{
+    font-size: 30px;
+    color: yellow;
+}
+.customer-ul{
+    text-align: right;
+    padding-right: 10px;
+}
+.customer-lorem{
+    padding-top: 10px;
+    font-size: 23px;
+    text-align: left;
+    padding-left: 23px;
+}
+.review-li{
+    position: absolute;
+transform: translate(100% ,10%);
+    font-size: 60px;
+    color:blue;
+    list-style: none;
+    margin: 0px;
+
+}
+/* sectionS-9 */
+.sectionS-9{
+    height: 300px;
+    margin: 0px;
+    text-align: center;
+    background-color: black;
+}
+.S-9contranier{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+}
+.barnd-icon{
+    border: 1px solid white;
+    height: 100px;
+    width: 200px;
+}
+.barnd-icon:hover{
+    transform: scale(1.2);
+}
+/* section-10 */
+.section-10{
+    height: 950px;
+    margin: 0px;
+text-align: center;
+}
+.the-blog{
+    color: black;
+    list-style: none;
+    padding-top: 10px;
+    margin: 0px;
+}
+.our-blog{
+    color: black;
+    font-size: 50px;
+    margin: 0px;
+}
+.S-10-contranier{
+    padding-top: 20px;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.childS-10{
+    width: 32%;
+    box-shadow: 0px 0px 1px ;
+    height: 600px;
+    background-image: linear-gradient(to top,yellowgreen , transparent);
+    opacity: 0.5;
+}
+.childS-10:hover{
+    background-image: none;
+    opacity: 1;
+}
+.blog-1{
+    width: 100%;
+    height: 300px;
+}
+.loreS-10{
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 20px;
+    color: brown;
+}
+.S10-date{
+list-style:none ;
+font-size: 17px;
+color: blue;
+padding-top: 10px;
+text-align: left;
+padding-left: 20px;}
+.blog-lorem{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+.Read{
+    font-size: 25px;
+    color: blue;
+}
+.Read:hover{
+color: red;
+}
+/* fotter */
+.fotter{
+    height: 600px;
+    margin-top: 0px;
+    background-color: yellowgreen;
+    position: relative;
+}
+.contranier-fotter{
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    background-color: black;
+    height: 600px;
+    border-radius: 30px;
+}
+.newslter{
+    font-size: 40px;
+    padding-top: 40px;
+}
+.name-foot{
+    width: 330px;
+    height: 60px;
+    border-radius: 40px;
+    font-size: 25px;
+    padding-left: 20px;
+    border: none;
+}
+.email-foot{
+    width: 330px;
+    height: 60px;
+    border-radius: 40px;
+    font-size: 25px;
+    padding-left: 20px;
+    border: none;
+}
+.subscribe{
+    background-color: blue;
+}
+.subscribe:hover{
+    background-color: red;
+    color: white;
+}
+.child-fotter-2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-left: 2%;
+padding-top: 100px;
+}
+.account{
+    width: 30%;
+    text-align: left;
+}
+.account-3{
+    width: 25%;
+}
+.account-2{
+    width: 28%;
+}
+.about-us{
+    font-size: 28px;
+}
+.about-pera{
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
+.ul-account{
+    text-decoration: none;
+}
+.cart-li{
+    padding-top: 20px;
+    font-size: 20px;
+    color: white;
+    list-style: none;
+}
+.cart-li:hover{
+    color: yellow;
+}
+.fotter-icon{
+    display: flex;
+}
+.foot-paper{
+    text-align: center;
+    height: 45px;
+    width: 45px;
+    font-size: 25px;
+    padding-top: 10px;
+    border-radius: 50%;
+    margin-left: 20px;
+    background-color: white;
+    color: black;
+}
+.nav-links-2{
+    text-decoration: none;
+    color: white;
+}
